@@ -1,0 +1,52 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.burak.app.jhipster",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "4.13.3",
+    "baseName": "blog",
+    "packageName": "org.burak.app.jhipster",
+    "packageFolder": "org/burak/app/jhipster",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "9de231b9a3eae5e732afa22dc9afd8e035804ad3",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "applicationType": "gateway",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "appsFolders": [
+      "blog"
+    ],
+    "directoryPath": "../",
+    "monitoring": "elk",
+    "dockerRepositoryName": "docker-registry",
+    "dockerPushCommand": "docker push",
+    "openshiftNamespace": "default",
+    "storageType": "persistent",
+    "registryReplicas": 2
+  }
+}
